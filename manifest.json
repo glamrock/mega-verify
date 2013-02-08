@@ -1,0 +1,18 @@
+{
+    "name": "Mega Verify",
+	"version": "0.01",
+	"description": "File integrity checks for Mega. Because let's be honest, it's about as good as you're going to get.",
+	"browser_action": {
+		"default_icon": "icon.png",
+		"popup": "main.html"
+	},
+	"icons": {
+		"48": "icon-48.png",
+		"128": "icon-128.png"
+	},
+	"permissions": [
+		"https://*.me.ga/*",
+		"https://*.mega.co.nz/*"
+        
+	]
+}
